@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const Container = styled.section`
   position: fixed;
   top: 5%;
-  left: 18%;
+  left: 19%;
   // transform: translate(-50%, -50%);
 
   background-color: #fafafa;
@@ -16,7 +16,7 @@ export const Title = styled.h2`
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 600;
-  margin: 100px 200px;
+  margin: 50px 100px;
 `;
 
 export const StatList = styled.ul`
@@ -33,14 +33,14 @@ export const StatItem = styled.li`
   display: flex;
   align-item: center;
   flex-direction: column;
-  padding: 30px 15px;
+  padding: 20px 10px;
   width: 100%;
   background-color: ${getRandomHexColor};
 `;
 
 export const Label = styled.span`
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 10px;
   text-align: center;
   text-shadow: 1px 1px 2px black;
@@ -49,7 +49,7 @@ export const Label = styled.span`
 export const Percentage = styled.span`
   color: #fff;
   text-align: center;
-  font-size: 32px;
+  font-size: 25px;
   font-weight: 600;
   text-shadow: 1px 1px 2px black;
 `;

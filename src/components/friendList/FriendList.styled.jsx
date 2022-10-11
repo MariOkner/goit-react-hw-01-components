@@ -1,7 +1,6 @@
 import styled from '@emotion/styled';
 
 export const ContainerList = styled.ul`
-  // margin: 20px 30px;
   position: fixed;
   top: 5%;
   left: 41%;
@@ -12,10 +11,10 @@ export const FriendItem = styled.li`
   display: flex;
   align-items: center;
 
-  width: 400px;
-  padding: 10px 20px;
+  width: 300px;
+  padding: 7px 15px;
   :not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   background-color: pink;

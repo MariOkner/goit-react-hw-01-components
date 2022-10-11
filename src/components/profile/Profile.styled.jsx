@@ -14,7 +14,7 @@ export const Container = styled.div`
 
 export const Description = styled.div`
   text-align: center;
-  margin: 50px 100px;
+  margin: 20px 60px;
 `;
 
 export const AvatarImg = styled.img`

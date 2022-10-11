@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const TransactionHistoryTable = styled.table`
   position: fixed;
   top: 5%;
-  left: 58%;
+  left: 59%;
 
   width: 500px;
 
@@ -11,8 +11,6 @@ export const TransactionHistoryTable = styled.table`
   border-spacing: 5;
   box-shadow: 2px 3px 14px 2px rgba(0, 0, 0, 0.41);
   overflow: hidden;
-  // border-radius: 5px;
-  // margin-bottom: 40px;
   font-size: 16px;
 `;
 
