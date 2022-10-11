@@ -1,9 +1,11 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.section`
-  position: fixed;
-  top: 5%;
-  left: 19%;
+  width: 400px;
+  height: 100%;
+  // position: absolute;
+  // top: 5%;
+  // left: 19%;
   // transform: translate(-50%, -50%);
 
   background-color: #fafafa;
@@ -13,10 +15,11 @@ export const Container = styled.section`
 `;
 
 export const Title = styled.h2`
+  text-align: center;
   text-transform: uppercase;
   font-size: 32px;
   font-weight: 600;
-  margin: 50px 100px;
+  padding: 50px;
 `;
 
 export const StatList = styled.ul`

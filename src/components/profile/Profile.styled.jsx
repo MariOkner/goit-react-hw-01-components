@@ -1,10 +1,13 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  position: fixed;
-  top: 5%;
-  left: 2%;
-  // transform: translate(-50%, -50%);
+  width: 350px;
+  height: 100%;
+  // margin: 15px 10px;
+  // position: fixed;
+  // top: 5%;
+  // left: 2%;
+  // // transform: translate(-50%, -50%);
 
   background-color: #fafafa;
   border-radius: 5px;
@@ -18,7 +21,7 @@ export const Description = styled.div`
 `;
 
 export const AvatarImg = styled.img`
-  width: 200px;
+  width: 100%;
   margin-bottom: 50px;
   border-radius: 50%;
   background-color: gray;

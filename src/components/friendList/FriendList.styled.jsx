@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
 
 export const ContainerList = styled.ul`
-  position: fixed;
-  top: 5%;
-  left: 41%;
+  width: 300px;
+  // position: fixed;
+  // top: 5%;
+  // left: 41%;
   list-style: none;
 `;
 
@@ -11,7 +12,6 @@ export const FriendItem = styled.li`
   display: flex;
   align-items: center;
 
-  width: 300px;
   padding: 7px 15px;
   :not(:last-child) {
     margin-bottom: 10px;
